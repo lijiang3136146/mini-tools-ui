@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "list/demo/app",
+   
+    "cut/demo/index"
+  ],
+  "window": {
+    "enableWK": "YES",
+    "enableDSL": "YES",
+    "enableJSC": "YES",
+    "defaultTitle": "小程序版AntUI",
+    "backgroundColor": "#F5F5F9",
+    "pullRefresh": false,
+    "allowsBounceVertical": true
+  },
+  "debug": true
+}

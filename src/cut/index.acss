@@ -1,0 +1,49 @@
+page {
+  flex: 1;
+  display: flex;
+}
+
+.canvas {
+  background: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.am-cut-content {
+  width: 100%;
+}
+
+.am-cut-sim {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.am-cut-region {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: #009cff solid 1px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.am-cut-outer {
+  background: #7d7d7d;
+}
+
+.am-cut-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.am-cut-primary {
+  margin: 10px 10px 10px 10px;
+}
+
+.am-cut-default {
+  margin: 20px 10px 10px 10px;
+}

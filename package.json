@@ -1,0 +1,27 @@
+{
+  "name": "mini-tools-ui",
+  "version": "0.0.1",
+  "description": "小程序版ToolsUI",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alipay-inc.com:mini-program/mini-tools-ui.git"
+  },
+  "files": [
+    "es"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "keywords": [
+    "mini-tools-ui"
+  ],
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "pre-commit-eslint": "^0.0.6",
+    "rc-tools": "6.x"
+  },
+  "scripts": {
+    "build": "rc-tools run compile && node scripts/cp.js && node scripts/rm.js",
+    "pub": "git push origin && npm run build && tnpm publish"
+  }
+}

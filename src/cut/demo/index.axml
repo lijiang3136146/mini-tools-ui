@@ -1,0 +1,7 @@
+<cut
+width="{{300}}"
+height="{{300}}"
+pixelRatio="{{2}}"
+saveFile="{{true}}"
+onChange="onChange"
+/>
